@@ -18,7 +18,7 @@ def index(request):
 		"list": item_list,
 		"title": "TODO LIST",
 	}
-	return render(request, 'todo/index.html', page)
+	return render(request, 'index.html', page)
 
 
 ### function to remove item, it receive todo item_id as primary key from url ##
