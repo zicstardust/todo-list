@@ -1,7 +1,5 @@
 from django.test import TestCase
 from .models import Todo
-from django.utils import timezone
-
 
 class TodoTestCase(TestCase):
     def setUp(self):
